@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 void filecopy(FILE* ifp, FILE* ofp) {                                       /* filecopy: копирует файл ifp в файл ofp */
     int c;                                                                  // объявляем всё
     int count_br = 0, kav = 0, resh = 0, tsz = 0;
