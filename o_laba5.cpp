@@ -266,6 +266,5 @@ int main() {
 	free(d);
 	free(e);
 	free(f);
-
 	return 0;
 }
