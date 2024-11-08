@@ -1,4 +1,6 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+// хорошее видео в тему: https://www.youtube.com/watch?v=TrJW0o6C_pw
+
+#define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h>
 FILE* file_entrance;
 FILE* file_exit;
@@ -56,7 +58,6 @@ void hit(int a) {
     if (a + 1 < N) hit(a + 1);
     
 }
-
 
 int main() {
 
